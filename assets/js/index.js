@@ -1,5 +1,12 @@
 //Функция, которая решает квадратные уравнения
 
+/**
+ * Solves quadric equations
+ * @param {number} a -
+ * @param {number} b 
+ * @param {number} c 
+ * @returns {false | null | [number, number]} -returns false on invalid input
+ */
 function quadricEquation(a, b, c){
   if( isNaN(a - b- c) ) return false;
   if(a === 0) return null;
